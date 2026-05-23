@@ -9,7 +9,7 @@ chapter: false
 # Internship Report
 
 ### Student Information:
-&emsp; **Full Name:** Nguyễn Lê Hoàn Hảo
+&emsp; **Full Name:** Nguyen Le Hoan Hao
 
 &emsp; **Phone Number:** 0888105940
 
