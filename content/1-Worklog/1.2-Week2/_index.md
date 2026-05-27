@@ -1,57 +1,73 @@
 ---
+
 title: "Week 2 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-05-17
+weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
----
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
+----------------------
 
 ### Week 2 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Learn Amazon S3 and object storage concepts.
+* Practice static website hosting using S3 and CloudFront.
+* Understand S3 security, versioning, replication, and object management features.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task                                                                                                                                                         | Start Date | Completion Date | Reference Material                                                                  |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------------------------------------------------- |
+| 2   | - Learn Amazon S3 fundamentals <br>  + Buckets <br>  + Objects <br>  + Storage Classes <br>  + Bucket Policies                                               | 05/11/2026 | 05/11/2026      | https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i/                                             |
+| 3   | - Practice creating and managing S3 Buckets <br> - Upload and manage objects in Amazon S3 <br> - Learn static website hosting on S3                          | 05/12/2026 | 05/12/2026      | https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i/ |
+| 4   | - Configure Bucket Policies and Public Access settings <br> - Practice testing public website access <br> - Learn S3 object permissions and access control   | 05/13/2026 | 05/14/2026      | https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i/                                             |
+| 5   | - Learn Amazon CloudFront basics <br> - Configure CloudFront Distribution for S3 static websites <br> - Test website delivery through CloudFront             | 05/15/2026 | 05/15/2026      | https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i/ |
+| 6   | - Learn S3 Bucket Versioning <br> - Practice object version management <br> - Learn object movement and lifecycle concepts                                   | 05/16/2026 | 05/16/2026      | https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i/ |
+| 7   | - Learn S3 Cross-Region Replication concepts <br> - Practice multi-region object replication <br> - Understand backup and availability concepts in Amazon S3 | 05/17/2026 | 05/17/2026      | https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i/                                             |
 
 ### Week 2 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
+* Understood Amazon S3 architecture and object storage concepts:
+
+  * Buckets
+  * Objects
+  * Storage Classes
+  * Bucket Policies
+  * Access Control
   * ...
 
-* Successfully created and configured an AWS Free Tier account.
+* Successfully practiced:
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+  * Creating and managing S3 buckets
+  * Uploading and managing objects
+  * Configuring static website hosting
+  * Testing website accessibility
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
+* Learned how to configure Bucket Policies and Public Access settings for static website deployment.
+
+* Understood Amazon CloudFront fundamentals and CDN concepts:
+
+  * CloudFront Distribution
+  * Origin Configuration
+  * Content Delivery
+  * Edge Locations
+
+* Successfully configured CloudFront for S3 static website hosting and tested content delivery through CloudFront URLs.
+
+* Learned Amazon S3 Versioning concepts and practiced managing multiple object versions.
+
+* Understood object movement and replication concepts:
+
+  * Cross-Region Replication (CRR)
+  * Multi-region availability
+  * Backup and redundancy concepts
+
+* Practiced troubleshooting common AWS issues:
+
+  * Bucket Policy syntax errors
+  * Access Denied errors
+  * CloudFront origin configuration
+  * Public access block settings
+  * Object permission issues
   * ...
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Completed studying videos 72 - 102 of the "First Cloud Journey Bootcamp 2025" series by AWS Study Group.
