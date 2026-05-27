@@ -1,57 +1,72 @@
 ---
+
 title: "Week 1 Worklog"
-date: 2024-01-01
+date: 2026-05-10
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
----
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
+----------------------
 
 ### Week 1 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Get familiar with the First Cloud AI Journey program and AWS environment.
+* Understand basic AWS services and how to manage AWS resources.
+* Practice AWS labs related to EC2, VPC, VPC Peering, and Transit Gateway.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task                                                                                                                                                                 | Start Date | Completion Date | Reference Material                                                                  |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------------------------------------------------- |
+| 2   | - Get familiar with the First Cloud AI Journey program <br> - Learn the fundamentals of Cloud Computing and AWS services                                             | 05/04/2026 | 05/04/2026      | https://cloudjourney.awsstudygroup.com/                                             |
+| 3   | - Learn AWS Management Console <br> - Study basic Amazon EC2 concepts: <br>  + Instance Types <br>  + AMI <br>  + EBS <br>  + Security Groups                        | 05/05/2026 | 05/05/2026      | https://www.youtube.com/watch?v=AWXCQAd4_qM&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i |
+| 4   | - Practice launching EC2 Instances <br> - Learn about Elastic IP <br> - Practice SSH connection using PuTTY and MobaXterm                                            | 05/06/2026 | 05/06/2026      | https://cloudjourney.awsstudygroup.com/                                             |
+| 5   | - Learn Amazon VPC concepts: <br>  + Subnet <br>  + Route Table <br>  + Internet Gateway <br>  + NAT Gateway                                                         | 05/07/2026 | 05/08/2026      | https://cloudjourney.awsstudygroup.com/                                             |
+| 6   | - Practice VPC Peering <br> - Configure Route Tables between VPCs <br> - Learn Security Group configuration in multi-VPC environments                                | 05/09/2026 | 05/09/2026      | https://cloudjourney.awsstudygroup.com/                                             |
+| 7   | - Learn AWS Transit Gateway <br> - Practice creating Transit Gateway Attachments and Route Tables <br> - Practice infrastructure deployment using AWS CloudFormation | 05/10/2026 | 05/11/2026      | https://www.youtube.com/watch?v=AWXCQAd4_qM&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i |
 
 ### Week 1 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
+* Understood the basic concepts of Cloud Computing and the major AWS service groups:
+
   * Compute
   * Storage
-  * Networking 
-  * Database
+  * Networking
+  * Security
   * ...
 
-* Successfully created and configured an AWS Free Tier account.
+* Became familiar with AWS Management Console and how to manage AWS resources.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Successfully practiced:
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
+  * Launching EC2 Instances
+  * Configuring Security Groups
+  * Assigning Elastic IPs
+  * Connecting to EC2 instances via SSH using PuTTY and MobaXterm
+
+* Understood the architecture and components of Amazon VPC:
+
+  * Subnets
+  * Route Tables
+  * Internet Gateway
+  * NAT Gateway
+
+* Practiced VPC Peering and understood communication between multiple VPCs.
+
+* Learned AWS Transit Gateway concepts:
+
+  * Transit Gateway Attachments
+  * Transit Gateway Route Tables
+  * Routing between VPCs
+
+* Became familiar with AWS CloudFormation and infrastructure deployment using templates.
+
+* Practiced troubleshooting common AWS issues:
+
+  * SSH connection issues
+  * Security Group configuration
+  * Route configuration
+  * CloudFormation rollback
+  * EC2 Instance Type issues
   * ...
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Completed studying videos 1 - 71 of the "First Cloud Journey Bootcamp 2025" series by AWS Study Group.

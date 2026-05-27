@@ -1,59 +1,72 @@
 ---
+
 title: "Worklog Tuần 1"
-date: 2024-01-01
+date: 2026-05-10
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
----
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
+----------------------
 
 ### Mục tiêu tuần 1:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Làm quen với chương trình First Cloud AI Journey và môi trường AWS.
+* Hiểu các dịch vụ AWS cơ bản và cách quản lý tài nguyên trên AWS.
+* Thực hành các bài lab về EC2, VPC, VPC Peering và Transit Gateway.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc                                                                                                                                             | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                                                                      |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------------------------------------------------- |
+| 2   | - Làm quen với chương trình First Cloud AI Journey <br> - Tìm hiểu tổng quan về Cloud Computing và AWS                                                | 04/05/2026   | 04/05/2026      | https://cloudjourney.awsstudygroup.com/                                             |
+| 3   | - Tìm hiểu AWS Management Console <br> - Tìm hiểu Amazon EC2 cơ bản: <br>  + Instance Type <br>  + AMI <br>  + EBS <br>  + Security Group             | 05/05/2026   | 05/05/2026      | https://www.youtube.com/watch?v=AWXCQAd4_qM&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i |
+| 4   | - Thực hành tạo EC2 Instance <br> - Tìm hiểu Elastic IP <br> - Thực hành SSH vào EC2 bằng PuTTY và MobaXterm                                          | 06/05/2026   | 06/05/2026      | https://cloudjourney.awsstudygroup.com/                                             |
+| 5   | - Tìm hiểu Amazon VPC: <br>  + Subnet <br>  + Route Table <br>  + Internet Gateway <br>  + NAT Gateway                                                | 07/05/2026   | 08/05/2026      | https://cloudjourney.awsstudygroup.com/                                             |
+| 6   | - Thực hành VPC Peering <br> - Cấu hình Route Table giữa các VPC <br> - Tìm hiểu Security Group trong môi trường nhiều VPC                            | 09/05/2026   | 09/05/2026      | https://cloudjourney.awsstudygroup.com/                                             |
+| 7   | - Tìm hiểu AWS Transit Gateway <br> - Thực hành tạo Transit Gateway Attachment và Route Table <br> - Thực hành triển khai hạ tầng bằng CloudFormation | 10/05/2026   | 11/05/2026      | https://www.youtube.com/watch?v=AWXCQAd4_qM&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i |
 
 ### Kết quả đạt được tuần 1:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
+* Hiểu được mô hình cơ bản của Cloud Computing và các nhóm dịch vụ chính của AWS:
+
   * Compute
   * Storage
-  * Networking 
-  * Database
+  * Networking
+  * Security
   * ...
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Làm quen với AWS Management Console và cách quản lý tài nguyên AWS.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Thực hành thành công:
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
+  * Tạo EC2 Instance
+  * Cấu hình Security Group
+  * Gán Elastic IP
+  * SSH vào EC2 bằng PuTTY/MobaXterm
+
+* Hiểu được mô hình hoạt động của Amazon VPC:
+
+  * Subnet
+  * Route Table
+  * Internet Gateway
+  * NAT Gateway
+
+* Thực hành VPC Peering và hiểu cách kết nối giữa nhiều VPC.
+
+* Tìm hiểu AWS Transit Gateway:
+
+  * Transit Gateway Attachment
+  * Transit Gateway Route Table
+  * Routing giữa các VPC
+
+* Làm quen với AWS CloudFormation và triển khai tài nguyên bằng template có sẵn.
+
+* Thực hành xử lý một số lỗi thường gặp:
+
+  * SSH connection
+  * Security Group
+  * Route configuration
+  * CloudFormation rollback
+  * EC2 Instance Type
   * ...
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Đã hoàn thành theo dõi và học các video từ 1 - 71 trong series First Cloud Journey Bootcamp 2025 của AWS Study Group.
