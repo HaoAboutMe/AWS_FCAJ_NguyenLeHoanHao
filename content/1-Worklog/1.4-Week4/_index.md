@@ -1,57 +1,81 @@
 ---
+
 title: "Week 4 Worklog"
-date: 2024-01-01
+date: 2026-05-31
 weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
----
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+---
 
 ### Week 4 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Learn AWS networking fundamentals including VPC and Security Groups.
+* Practice deploying and managing Amazon EC2 Instances.
+* Understand AWS resource organization through tagging strategies.
+* Integrate AWS notifications with Slack using Webhooks.
+* Begin planning the final internship project and identify suitable AWS services.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task                                                                                                                                                                            | Start Date | Completion Date | Reference Material                                                       |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------------------------------------------------------------ |
+| 2   | - Learn Amazon VPC concepts <br> - Create custom VPCs and understand networking architecture <br> - Explore subnets, route tables, and Internet Gateway configurations          | 05/25/2026 | 05/25/2026      | https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i |
+| 3   | - Learn Security Group concepts <br> - Configure inbound and outbound traffic rules <br> - Understand AWS network security best practices                                       | 05/26/2026 | 05/26/2026      | https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i |
+| 4   | - Launch and configure Amazon EC2 Instances <br> - Practice connecting to EC2 Instances <br> - Understand EC2 deployment workflows                                              | 05/27/2026 | 05/28/2026      | https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i |
+| 5   | - Learn AWS Tagging strategies <br> - Create and manage resource tags <br> - Understand resource organization and cost management practices                                     | 05/29/2026 | 05/29/2026      | https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i |
+| 6   | - Learn Slack Webhook integration <br> - Configure AWS notifications to Slack channels <br> - Understand event-driven notification workflows                                    | 05/30/2026 | 05/30/2026      | https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i |
+| 7   | - Discuss and evaluate final internship project ideas <br> - Select Battleship Game as the final project topic <br> - Identify AWS services suitable for project implementation | 05/31/2026 | 05/31/2026      | Team Discussion & AWS Documentation                                      |
 
 ### Week 4 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Successfully created and configured Amazon VPC environments.
 
-* Successfully created and configured an AWS Free Tier account.
+* Learned key AWS networking components:
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+  * Virtual Private Cloud (VPC)
+  * Subnets
+  * Route Tables
+  * Internet Gateway
+  * CIDR Blocks
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Successfully configured Security Groups and understood how AWS controls inbound and outbound network traffic.
 
-* Used AWS CLI to perform basic operations such as:
+* Practiced deploying and managing Amazon EC2 Instances.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* Learned EC2 deployment concepts including:
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+  * Amazon Machine Images (AMI)
+  * Instance Types
+  * Security Group Association
+  * Network Configuration
+
+* Learned how to organize AWS resources using Tags.
+
+* Practiced creating tags for AWS resources to improve:
+
+  * Resource Management
+  * Cost Tracking
+  * Environment Classification
+  * Project Organization
+
+* Successfully integrated AWS notifications with Slack using Webhooks.
+
+* Understood how cloud services can communicate with external collaboration platforms for monitoring and alerting purposes.
+
+* Participated in planning sessions for the final internship project.
+
+* Selected **Battleship Game** as the final internship project.
+
+* Defined an initial cloud architecture using AWS services such as:
+
+  * Amazon Cognito
+  * AWS Lambda
+  * Amazon S3
+  * Amazon API Gateway
+  * Amazon DynamoDB
+  * Amazon CloudFront
+
+* Discussed project requirements, gameplay mechanics, authentication flow, and potential cloud deployment strategies.
+
+* Completed studying videos 150 - 181 of the "First Cloud Journey Bootcamp 2025" series by AWS Study Group.

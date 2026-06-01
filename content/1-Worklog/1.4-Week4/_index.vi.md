@@ -5,55 +5,82 @@ weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-
 ### Mục tiêu tuần 4:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tìm hiểu các kiến thức cơ bản về mạng trên AWS thông qua Amazon VPC.
+* Thực hành cấu hình Security Group để kiểm soát lưu lượng truy cập vào tài nguyên AWS.
+* Triển khai và quản lý Amazon EC2 Instance.
+* Tìm hiểu cách tổ chức tài nguyên AWS bằng Tag.
+* Thực hành tích hợp AWS với Slack thông qua Webhook.
+* Thảo luận và lựa chọn đề tài cho dự án cuối kỳ thực tập.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Công việc thực hiện trong tuần:
 
+| Ngày | Công việc                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- |
+| 2    | - Tìm hiểu kiến thức về Amazon VPC <br> - Tạo và cấu hình VPC <br> - Nghiên cứu Subnet, Route Table và Internet Gateway                     | 25/05/2026   | 25/05/2026      |
+| 3    | - Tìm hiểu Security Group <br> - Cấu hình các quy tắc Inbound và Outbound <br> - Tìm hiểu các nguyên tắc bảo mật mạng trên AWS              | 26/05/2026   | 26/05/2026      |
+| 4    | - Khởi tạo Amazon EC2 Instance <br> - Cấu hình và kết nối EC2 <br> - Tìm hiểu quy trình triển khai máy chủ trên AWS                         | 27/05/2026   | 28/05/2026      |
+| 5    | - Tìm hiểu AWS Tagging <br> - Tạo và quản lý Tag cho tài nguyên AWS <br> - Tìm hiểu cách quản lý và phân loại tài nguyên                    | 29/05/2026   | 29/05/2026      |
+| 6    | - Tích hợp Slack Webhook với AWS <br> - Cấu hình gửi thông báo từ AWS đến Slack <br> - Tìm hiểu cơ chế giám sát và cảnh báo                 | 30/05/2026   | 30/05/2026      |
+| 7    | - Thảo luận các ý tưởng cho dự án cuối kỳ <br> - Lựa chọn đề tài Battleship Game <br> - Nghiên cứu các dịch vụ AWS có thể áp dụng cho dự án | 31/05/2026   | 31/05/2026      |
 
-### Kết quả đạt được tuần 4:
+### Kết quả đạt được:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Tạo thành công môi trường mạng riêng trên AWS bằng Amazon VPC.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Hiểu được các thành phần quan trọng trong hệ thống mạng AWS:
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+  * Virtual Private Cloud (VPC)
+  * Subnet
+  * Route Table
+  * Internet Gateway
+  * CIDR Block
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Cấu hình thành công Security Group và hiểu được cơ chế kiểm soát lưu lượng mạng của AWS.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Thực hành triển khai và quản lý Amazon EC2 Instance.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+* Hiểu được các thành phần quan trọng trong quá trình khởi tạo EC2:
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+  * Amazon Machine Image (AMI)
+  * Instance Type
+  * Security Group
+  * Network Configuration
 
+* Tìm hiểu và thực hành gắn Tag cho các tài nguyên AWS.
 
+* Hiểu được vai trò của Tag trong:
+
+  * Quản lý tài nguyên
+  * Theo dõi chi phí
+  * Phân loại môi trường
+  * Quản lý dự án
+
+* Tích hợp thành công AWS với Slack thông qua Webhook.
+
+* Hiểu được cách các dịch vụ AWS có thể gửi thông báo đến các nền tảng cộng tác bên ngoài để phục vụ mục đích giám sát và cảnh báo.
+
+* Bắt đầu giai đoạn lên ý tưởng cho dự án cuối kỳ thực tập.
+
+* Thống nhất lựa chọn đề tài:
+
+  * Battleship Game
+
+* Xây dựng định hướng kiến trúc ban đầu cho dự án với các dịch vụ AWS dự kiến sử dụng:
+
+  * Amazon Cognito
+  * AWS Lambda
+  * Amazon S3
+  * Amazon API Gateway
+  * Amazon DynamoDB
+  * Amazon CloudFront
+
+* Thảo luận về:
+
+  * Cơ chế đăng nhập và xác thực người dùng
+  * Luồng xử lý trò chơi
+  * Kiến trúc hệ thống trên nền tảng AWS
+  * Khả năng triển khai theo mô hình Cloud-Native
+
+* Hoàn thành quá trình học tập và thực hành các nội dung từ video 150 - 181 thuộc chương trình First Cloud Journey Bootcamp 2025 của AWS Study Group.
