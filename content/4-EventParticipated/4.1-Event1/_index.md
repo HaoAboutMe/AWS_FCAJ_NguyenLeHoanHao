@@ -6,121 +6,58 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
-
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Summary Report: Event 1
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+- Share effective learning methods to become as addicted to studying as to social media
+- Introduce technical aspects of AWS and demo the Proptimizer Project
+- Discuss the topic "Why are you not working yet?"
+- Introduce the BMAD Method
 
 ### Speakers
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **Mr. Huynh Hoang Long** - FCAJ Admin
+- **Mr. Nguyen Tuan Thinh** - DevOps/Cloud Engineer at FCAJ
+- **Mr. Khang** - Cloud Kinetics
+- **Ms. Phuong Thao** - Software Developer at VIB Bank
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### Share effective learning methods to become addicted to studying like social media
+- Break down learning materials and learning time -> improves learning efficiency
+- Create self-motivation by building streaks -> creates fake motivation and stimulates dopamine
+- The 2-minute rule -> Tasks that can be done in 2 minutes should be done immediately
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+#### Introduce technical aspects of AWS and demo the Proptimizer Project
+- Introduce AWS services: EC2, S3, ECS, CloudFrontNet, Cognito, etc.
+- Engage and introduce concepts dynamically in English
+- Demo a Chrome extension called Proptimizer used to optimize prompts for AI, utilizing AWS Lambda (only runs when called) instead of EC2 (runs continuously, billed hourly/daily) to save costs
 
-#### Transitioning to modern application architecture – Microservices
+#### The topic "Why are you not working yet?"
+- Share real-world insights on evaluating human resources based on: attitude, qualifications, experience, practical exposure, and personal qualities
+- Answer "why" questions from students attending the event
+- Address a question from a student who sees late graduation as a weakness; the speaker shared that he also graduated 2 years late but turned it into motivation rather than a weakness
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
-
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
-
-#### Domain-Driven Design (DDD)
-
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
-
-#### Event-Driven Architecture
-
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
-
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+#### Introduce the BMAD Method
+- What is the BMAD Method? - Breakthrough Method for AI-driven Agile Development
+- How the BMAD Method works compared to blind coding
 
 ### Key Takeaways
 
-#### Design Mindset
-
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
-
-#### Technical Architecture
-
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
-
-#### Modernization Strategy
-
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
-
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+- More effective ways to learn through the methods shared by Mr. Long
+- Learned more about AWS services and how costs are calculated when building a project. Which parts incur costs and which do not
+- Gained a deeper understanding of how attitude is a crucial factor when working in a company or anywhere else
+- Learned about the BMAD Method
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+Attending the workshop for the first time at the company was both an opportunity to get familiar with the environment and to gain useful knowledge. There were interactive activities intertwined with the learning, rather than just working. The speakers shared very useful information. Being able to listen and ask questions was great; while some technical aspects were not fully clear to me yet, knowing about them allows me to research further on my own.
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+### Event Photos
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+![Photo 1: Checking in at the AWS office on the 26th floor of Bitexco Tower](/images/4-Event/Event-1/pic1.jpg)
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+![Photo 2: Before the event started](/images/4-Event/Event-1/pic2.jpg)
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+![Photo 3: After the event ended](/images/4-Event/Event-1/pic3.jpg)

@@ -6,120 +6,58 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Bài thu hoạch Event 1
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+### Mục Đích Sự Kiện
 
-### Mục Đích Của Sự Kiện
-
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+- Chia sẻ về cách học hiệu quả làm sao để nghiện học như nghiện mạng xã hội
+- Giới thiệu về technical trong AWS và demo Project Proptimizer
+- Chủ đề “Tại sao chưa đi làm”
+- Giới thiệu về BMAD Method
 
 ### Danh Sách Diễn Giả
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+- **Anh Huỳnh Hoàng Long** - Admin FCAJ
+- **Anh Nguyễn Tuấn Thịnh** - DevOps/Cloud Engineer FCAJ
+- **Anh Khang** - Cloud Kinetics
+- **Chị Phương Thảo** - Software Developer của ngân hàng VIB
 
 ### Nội Dung Nổi Bật
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+#### Chia sẻ về cách học hiệu quả làm sao để nghiện học như nghiện mạng xã hội
+- Chia nhỏ từng phần để học, chia nhỏ thời gian để học -> giúp học hiệu quả hơn
+- Tự tạo động lực bằng cách lập chuỗi -> tạo động lực giả, kích thích dopamine
+- Quy tắc 2 phút -> Những việc có thể giải quyết trong 2 phút thì nên làm ngay
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+#### Giới thiệu về technical trong AWS và demo Project Proptimizer
+- Giới thiệu các dịch vụ của AWS: EC2, S3, ECS, CloudFrontNet, Cognito, …
+- Diễn giải và giới thiệu bằng tiếng Anh sinh động đặc sắc
+- Có demo sản phẩm là 1 chrome extension tên Proptimizer dùng để optimize prompt lại dành cho AI sử dụng AWS Lambda (khi gọi mới hoạt động) thay vì EC2 (hoạt động xuyên suốt tính phí theo giờ/ngày) để tiết kiệm chi phí
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+#### Chủ đề “Tại sao chưa đi làm”
+- Chia sẻ thực tế về việc đánh giá nhân lực thông qua các yếu tố: thái độ, trình độ, kinh nghiệm, trải nghiệm, tố chất
+- Giải đáp các câu hỏi vì sao của sinh viên có mặt tại event
+- Giải đáp câu hỏi của 1 bạn xem việc tốt nghiệp là điểm yếu nhưng anh cũng là một người tốt nghiệp trễ 2 năm theo anh chia sẻ và anh biến nó thành động lực chứ không xem nó là một điểm yếu
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
-
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
-
-#### Domain-Driven Design (DDD)
-
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
-
-#### Event-Driven Architecture
-
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
-
-#### Amazon Q Developer
-
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+#### Giới thiệu về BMAD Method
+- Giới thiệu BMAD Method là gì? - Breakthrough Method for AI-driven Agile Development
+- Cách BMAD Method hoạt động so với việc code mù
 
 ### Những Gì Học Được
 
-#### Tư Duy Thiết Kế
-
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
-
-#### Kiến Trúc Kỹ Thuật
-
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
-
-#### Chiến Lược Hiện Đại Hóa
-
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
-
-### Ứng Dụng Vào Công Việc
-
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+- Cách thức học hiệu quả hơn thông qua các phương pháp mà anh Long chia sẻ
+- Biết thêm về các dịch của AWS, chi phí khi xây dựng một dự án sẽ được tính như thế nào. Phần nào sẽ bị mất phí và không mất phí
+- Hiểu được thêm về việc thái độ là một thứ rất quan trọng trong việc đi làm ở doanh nghiệp hay bất cứ nơi nào. 
+- Biết thêm về BMAD Method
 
 ### Trải nghiệm trong event
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+Tham gia workshop lần đầu tiên tại công ty vừa để làm quen vừa có thêm kiến thức bổ ích. Có các hoạt động đan xen với nhau chứ không chỉ là làm việc. Được các speaker chia sẻ các thông tin hữu ích. Được lắng nghe và đặt câu hỏi, một số technical có thể sẽ chưa rõ nhưng nhờ việc biết đến mà em có tự nghiên cứu thêm.
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
+### Hình ảnh tham gia sự kiện
 
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
+![Hình 1: Checkin văn phòng AWS ở tầng 26 tòa nhà Bitexco](/images/4-Event/Event-1/pic1.jpg)
 
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
+![Hình 2: Trước khi bắt đầu event](/images/4-Event/Event-1/pic2.jpg)
 
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
-
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
-
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+![Hình 3: Sau khi event kết thúc](/images/4-Event/Event-1/pic3.jpg)
