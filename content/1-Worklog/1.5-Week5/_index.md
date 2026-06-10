@@ -1,3 +1,12 @@
+---
+
+title: "Week 5 Worklog"
+date: 2026-06-07
+weight: 5
+chapter: false
+pre: " <b> 1.5. </b> "
+----------------------
+
 ### Week 5 Objectives:
 
 * Understand AWS Identity and Access Management (IAM) concepts.
