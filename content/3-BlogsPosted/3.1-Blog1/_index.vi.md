@@ -1,31 +1,31 @@
 ---
 title: "Blog 1"
-date: 2024-01-01
+date: 2026-06-10
 weight: 1
 chapter: false
 pre: " <b> 3.1. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
-# SESSION POLICIES TRONG AMAZON EKS POD IDENTITY
+# Chia sẻ cá nhân về việc chuyển từ Cloud của nền tảng khác sang AWS
 
-Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+Khi tham gia chương trình FCAJ thì có người thắc mắc về việc đã biết về Cloud trước đó thì có cần phải làm lại các bài Lab hay không?
+
+Câu trả lời vẫn sẽ là có đến từ trải nghiệm cá nhân là 1 người đã làm việc với Microsoft Azure trước khi tham gia chương trình này.
 
 Các điểm chính cần nắm:
 
-* Session policy là một IAM policy inline được chỉ định khi tạo hoặc cập nhật Pod Identity association.
-* Quyền hiệu quả = intersection (giao) giữa permissions của IAM role và session policy → session policy chỉ có thể thu hẹp, không thể mở rộng quyền.
-* Giúp tránh tình trạng over-permissioning khi reuse chung một IAM role cho nhiều workloads có nhu cầu khác nhau.
-* Hỗ trợ cả same-account và cross-account (qua IAM role chaining).
-* Giảm đáng kể số lượng IAM roles cần quản lý, tránh chạm giới hạn quota IAM trong cluster lớn.
-* Cấu hình dễ dàng qua AWS Management Console, AWS CLI hoặc AWS SDK khi tạo association giữa Kubernetes ServiceAccount và IAM role.
+* Sau khi sử dụng AWS, tôi học được cách sử dụng nhiều loại dịch vụ AWS khác nhau.
+* Trong khi việc sử dụng Azure ngày trước chỉ tập trung vào thuê máy ảo và nhồi nhét mọi thứ trên máy ảo.
+* Học được thêm về các DB mới như RDS, DynamoDB và các dịch vụ khác của AWS.
+* Giới thiệu 1 chút về VPC và IAM cơ bản.
 
-Tính năng này đặc biệt hữu ích khi bạn có nhiều ứng dụng chạy trên cùng một IAM role nhưng cần giới hạn quyền khác nhau (ví dụ: một pod chỉ đọc S3 bucket cụ thể, pod khác chỉ gọi một số API nhất định).
 
-...Hình ảnh...
+Vì đây là chia sẻ cá nhân nên có thể có nhiều sai sót do trải nghiệm về AWS chưa đủ lâu. Có một số bình luận cho bài viết này có thể tham khảo thêm.
 
-...Link...
+> Tham khảo bài viết gốc ở [Link][Link_Original]
 
-...Hướng dẫn...
+[Link_Original]: https://www.facebook.com/groups/awsstudygroupfcj/posts/2175264609905166
+
+> Hình ảnh bài post
+![Your profile picture](/images/3-Blogpost/z7920142534500_ed3e8f3a5057e024d8cbdb0391a49ec9.jpg)
+

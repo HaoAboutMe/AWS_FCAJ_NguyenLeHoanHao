@@ -1,31 +1,30 @@
 ---
+
 title: "Blog 1"
-date: 2024-01-01
+date: 2026-06-10
 weight: 1
 chapter: false
 pre: " <b> 3.1. </b> "
----
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
+----------------------
 
-# SESSION POLICIES IN AMAZON EKS POD IDENTITY
+# Personal Experience: Moving from Another Cloud Platform to AWS
 
-Amazon EKS Pod Identity has recently added the session policies feature, allowing you to narrow IAM permissions flexibly and precisely for each pod without needing to create many separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+When joining the FCAJ program, some people asked whether it is necessary to complete all the labs if they already have previous experience with Cloud Computing.
 
-Key points to know:
+Based on my personal experience as someone who worked with Microsoft Azure before joining this program, my answer is still **yes**.
 
-* A session policy is an inline IAM policy specified when creating or updating a Pod Identity association.
-* Effective permissions = intersection between the IAM role permissions and the session policy → the session policy can only narrow permissions, not expand them.
-* Helps avoid over-permissioning when reusing a single IAM role for multiple workloads with different needs.
-* Supports both same-account and cross-account (via IAM role chaining).
-* Significantly reduces the number of IAM roles that need to be managed, helping avoid hitting IAM quota limits in large clusters.
-* Easily configured through the AWS Management Console, AWS CLI, or AWS SDK when creating an association between a Kubernetes ServiceAccount and an IAM role.
+Some key takeaways from my experience:
 
-This feature is especially useful when you have many applications running on the same IAM role but need different permission restrictions (for example: one pod only reads a specific S3 bucket, another pod only calls certain APIs).
+* After using AWS, I learned how to work with a wide variety of AWS services.
+* Previously, when using Azure, I mainly focused on renting Virtual Machines and deploying everything directly on those VMs.
+* I had the opportunity to learn about new database services such as Amazon RDS, Amazon DynamoDB, and many other AWS services.
+* I also gained a basic understanding of important AWS concepts such as VPC and IAM.
 
-...Image...
+Since this is a personal experience, there may be inaccuracies due to my limited time working with AWS. You may find additional useful insights in the comments section of the original post.
 
-...Link...
+> Original post: [Link][Link_Original]
 
-...Guide...
+[Link_Original]: https://www.facebook.com/groups/awsstudygroupfcj/posts/2175264609905166
+
+> Post image
+> ![Your profile picture](/images/3-Blogpost/z7920142534500_ed3e8f3a5057e024d8cbdb0391a49ec9.jpg)
