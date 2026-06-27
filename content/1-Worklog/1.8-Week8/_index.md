@@ -1,57 +1,43 @@
 ---
 title: "Week 8 Worklog"
-date: 2024-01-01
+date: 2026-06-27
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 8 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Research and implement the Custom Shipyard feature, allowing players to design their own ships.
+* Develop a leaderboard system to display the TOP 5 players with the highest scores across all rank tiers.
+* Optimize the user interface (UI) for both Desktop and responsive mobile views.
+* Enhance system security and stability by configuring Throttling (Rate Limiting) on API Gateway.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks performed during the week:
 
+| Day | Task | Start Date | Completion Date |
+| --- | ---- | ---------- | --------------- |
+| 2   | - Researched Custom Shipyard solutions and grid coordinate systems to allow users to draw custom ship shapes <br> - Defined validation rules for custom-drawn ships | 06/22/2026 | 06/22/2026 |
+| 3   | - Implemented the Custom Shipyard UI on the Frontend with an interactive drawing grid <br> - Built validation algorithms (ensuring contiguous blocks and correct cell counts) and saved custom ship configurations | 06/23/2026 | 06/23/2026 |
+| 4   | - Designed DynamoDB schemas and developed Lambda Functions to query leaderboard statistics <br> - Retrieved TOP 5 player data with the highest scores for all rank tiers | 06/24/2026 | 06/24/2026 |
+| 5   | - Integrated the Leaderboard UI on the Frontend to show detailed rankings <br> - Optimized the user interface (UI) for Desktop and completed responsive adjustments for mobile and tablet screens | 06/25/2026 | 06/25/2026 |
+| 6   | - Configured Throttling (Rate Limiting) on AWS API Gateway endpoints <br> - Set limits on request rates and burst sizes to prevent API abuse and spamming | 06/26/2026 | 06/26/2026 |
+| 7   | - Conducted comprehensive testing of all new features (Custom Shipyard, Leaderboard, API Throttling) <br> - Fixed UI bugs on responsive views and compiled the Week 8 progress report | 06/27/2026 | 06/27/2026 |
 
-### Week 8 Achievements:
+### Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Completed the Custom Shipyard feature:**
+  * Enabled players to freely draw and customize their ship layouts based on personal preferences instead of using static templates.
+  * Successfully integrated placement validation (ensuring contiguous blocks and correct sizes) before the matchmaking starts.
 
-* Successfully created and configured an AWS Free Tier account.
+* **Implemented the Leaderboard system:**
+  * Built APIs to query DynamoDB and retrieve the TOP 5 players with the highest scores across all rank tiers (Bronze, Silver, Gold, Platinum, Diamond, etc.).
+  * Designed an intuitive, clean leaderboard interface showing rank badges and detailed win statistics.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* **Enhanced User Interface and Responsiveness:**
+  * Optimized layout structures for Desktop screens, increasing sizes for primary interaction areas and controls.
+  * Resolved layout clipping, misalignments, and rendering issues on mobile and tablet screens.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Secured API endpoints with API Gateway Throttling:**
+  * Successfully configured Throttling (Rate and Burst limits) on AWS API Gateway.
+  * Protected server resources from API spamming, ensuring system stability and reducing unwanted AWS Lambda invocation costs.

@@ -1,59 +1,43 @@
 ---
 title: "Worklog Tuần 8"
-date: 2024-01-01
+date: 2026-06-27
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 8:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Nghiên cứu và triển khai tính năng Custom Shipyard cho phép người chơi tự thiết kế hình dáng tàu.
+* Xây dựng hệ thống bảng xếp hạng (Leaderboard) hiển thị TOP 5 người chơi điểm số cao nhất theo từng bậc rank.
+* Tối ưu hóa giao diện người dùng (UI) trên cả Desktop và Responsive di động.
+* Tăng cường tính bảo mật và độ ổn định của hệ thống bằng cách cấu hình Throttling (Rate Limiting) trên API Gateway.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Công việc thực hiện trong tuần:
 
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành |
+| ---- | --------- | ------------ | --------------- |
+| 2 | - Nghiên cứu thiết kế giải pháp Custom Shipyard và cấu trúc lưới tọa độ cho phép người dùng tự vẽ hình dáng tàu <br> - Định nghĩa các quy tắc kiểm tra tính hợp lệ của tàu tự thiết kế | 22/06/2026 | 22/06/2026 |
+| 3 | - Hiện thực hóa giao diện Custom Shipyard trên Frontend với công cụ vẽ lưới trực quan <br> - Xây dựng thuật toán xác thực tàu hợp lệ (liền mạch, đúng số lượng ô) và lưu trữ cấu hình tàu tùy chỉnh của người chơi | 23/06/2026 | 23/06/2026 |
+| 4 | - Thiết kế cấu trúc cơ sở dữ liệu DynamoDB và viết Lambda Function truy vấn thông tin bảng xếp hạng <br> - Thực hiện lấy dữ liệu TOP 5 người chơi có điểm số cao nhất của mọi bậc rank | 24/06/2026 | 24/06/2026 |
+| 5 | - Tích hợp giao diện Leaderboard lên Frontend hiển thị bảng xếp hạng chi tiết <br> - Tối ưu hóa giao diện người dùng (UI) trên Desktop và responsive hoàn chỉnh trên thiết bị di động (Mobile/Tablet) | 25/06/2026 | 25/06/2026 |
+| 6 | - Cấu hình tính năng Throttling (Rate Limiting) trên AWS API Gateway cho các endpoint dịch vụ <br> - Thiết lập giới hạn số lượng request tối đa trong một đơn vị thời gian để ngăn chặn hành vi spam API | 26/06/2026 | 26/06/2026 |
+| 7 | - Tiến hành kiểm thử toàn diện các tính năng mới (Custom Shipyard, Leaderboard, API Throttling) <br> - Sửa các lỗi phát sinh liên quan đến giao diện responsive và hoàn thành báo cáo tiến độ tuần 8 | 27/06/2026 | 27/06/2026 |
 
-### Kết quả đạt được tuần 8:
+### Kết quả đạt được:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Hoàn thành tính năng Custom Shipyard sáng tạo:**
+  * Cho phép người chơi tự do vẽ và thiết kế hình dạng tàu chiến theo sở thích cá nhân, không bị gò bó bởi các khuôn mẫu cố định.
+  * Tích hợp thành công các thuật toán xác thực tính hợp lệ của tàu vẽ tay (đảm bảo các ô tàu liền mạch, đủ kích thước quy định) trước khi bắt đầu trận đấu.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* **Hoàn thiện hệ thống Bảng xếp hạng (Leaderboard):**
+  * Triển khai thành công API truy vấn dữ liệu từ DynamoDB để trả về TOP 5 người chơi xuất sắc nhất sở hữu điểm số cao nhất của mọi bậc rank (Bronze, Silver, Gold, Platinum, Diamond, v.v.).
+  * Thiết kế giao diện bảng xếp hạng trực quan, bắt mắt, tích hợp huy hiệu rank và thống kê tỉ số chi tiết.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* **Cải thiện trải nghiệm giao diện (UI) và Responsive:**
+  * Tối ưu hóa bố cục giao diện hiển thị chuyên nghiệp trên màn hình Desktop, tăng kích thước các khu vực tương tác và điều khiển.
+  * Cải tiến responsive toàn diện, loại bỏ hoàn toàn các lỗi bể layout, lệch phần tử trên điện thoại và máy tính bảng.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* **Bảo mật và chống Spam với API Gateway Throttling:**
+  * Cấu hình thành công cơ chế Throttling trên AWS API Gateway (giới hạn Rate và Burst request).
+  * Giúp bảo vệ tài nguyên hệ thống, ngăn chặn các cuộc tấn công spam API liên tục từ người dùng xấu, giảm thiểu chi phí phát sinh ngoài ý muốn từ AWS Lambda.
