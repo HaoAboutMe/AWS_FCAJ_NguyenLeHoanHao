@@ -14,15 +14,17 @@ pre: " <b> 1. </b> "
 
 **Week 4:** [Learning AWS Networking, EC2 and Planning Final Project](1.4-week4/)
 
-**Week 5:** [Doing task D...](1.5-week5/)
+**Week 5:** [Learning IAM Users/Policies/Roles, discussing Battleship project specification, and initializing Frontend](1.5-week5/)
 
-**Week 6:** [Doing task E...](1.6-week6/)
+**Week 6:** [Integrating AWS Cognito, designing Serverless APIs (API Gateway + Lambda), DynamoDB storage, and planning PvP WebSocket](1.6-week6/)
 
-**Week 7:** [Doing task G...](1.7-week7/)
+**Week 7:** [Implementing PvP WebSocket real-time communication, integrating S3 Presigned URLs for avatar uploads, finalizing Profile, and adding sound effects](1.7-week7/)
 
-**Week 8:** [Doing task H...](1.8-week8/)
 
-**Week 9:** [Doing task I...](1.9-week9/)
+**Week 8:** [Implementing Custom Shipyard, building Leaderboard, and configuring API Gateway Throttling](1.8-week8/)
+
+**Week 9:** [Improving Web UI, Deploying Frontend via S3 & CloudFront, mitigating Lambda Cold Starts, and drawing AWS Architecture Diagram](1.9-week9/)
+
 
 **Week 10:** [Doing task L...](1.10-week10/)
 
