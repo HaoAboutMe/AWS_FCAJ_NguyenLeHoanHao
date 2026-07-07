@@ -1,57 +1,41 @@
 ---
 title: "Week 9 Worklog"
-date: 2024-01-01
+date: 2026-07-04
 weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 9 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Upgrade and optimize the web interface, developing a new modern layout that works seamlessly across various screen resolutions.
+* Deploy the Frontend using Amazon S3 Static Web Hosting combined with Amazon CloudFront as CDN to optimize global page load speeds.
+* Resolve Lambda Cold Start issues to improve overall system performance and reduce response latency.
+* Research, standardize the infrastructure architecture, and design a detailed AWS Architecture Diagram for the Cloud Battleship application.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks performed during the week:
 
+| Day | Task | Start Date | Completion Date |
+| --- | ---- | ---------- | --------------- |
+| 2   | - Refactored CSS code and UI components, starting the implementation of the new modern web interface design <br> - Optimized the layout of match status displays and the lobby placement setup area | 06/29/2026 | 06/29/2026 |
+| 3   | - Continued refining the new UI: polished hover effects, shadows, and glassmorphism in both Light and Dark modes <br> - Resolved layout clipping and responsive alignment issues for the control menu and mobile buttons | 06/30/2026 | 06/30/2026 |
+| 4   | - Researched strategies to mitigate serverless Lambda Cold Start latency <br> - Developed a warm-up Lambda function to send periodic heartbeat signals to the core business logic Lambdas <br> - Configured EventBridge Rules in the SAM template to automatically trigger the warm-up process every 5 minutes | 07/01/2026 | 07/01/2026 |
+| 5   | - Deployed the static Frontend on Amazon S3 and configured appropriate S3 Bucket Policies <br> - Created and configured an Amazon CloudFront Distribution as the CDN in front of S3, optimizing caching policies and integrating SSL/TLS for secure HTTPS connections <br> - Troubleshot Redirect URI issues during Cognito User Pool integration with Facebook Login | 07/02/2026 | 07/02/2026 |
+| 6   | - Researched and designed the AWS Architecture Diagram, detailing the REST API, WebSocket (APIGW), Lambda, DynamoDB, and S3/CloudFront data flows <br> - Visualized the architecture using Mermaid diagrams for inclusion in the project documentation | 07/03/2026 | 07/03/2026 |
+| 7   | - Conducted end-to-end performance testing of the system post-deployment with the warm-up Lambda and CloudFront CDN distribution <br> - Finalized architectural documentation, addressed outstanding CSS issues, and compiled the Week 9 progress report | 07/04/2026 | 07/04/2026 |
 
-### Week 9 Achievements:
+### Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Enhanced and Upgraded User Interface (UI):**
+  * Redesigned the visual theme to feel more modern, improving contrast and grid visual cues for the board and custom-painted ships.
+  * Refined mobile responsive views to eliminate button layout clipping or text-wrapping on smaller screens.
 
-* Successfully created and configured an AWS Free Tier account.
+* **Successful Frontend Deployment on AWS:**
+  * Deployed the static Frontend onto Amazon S3 Static Web Hosting, reducing server resource loads.
+  * Integrated Amazon CloudFront to distribute the static content with low latency and secure HTTPS connections globally.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* **Resolved Lambda Cold Start Issues:**
+  * Reduced first-request API latency from several seconds to under 200ms using the automated scheduler powered by Amazon EventBridge.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Designed a Professional AWS Architecture Diagram:**
+  * Created a comprehensive and detailed architecture diagram, providing clear documentation of serverless services and client-server communication channels.
