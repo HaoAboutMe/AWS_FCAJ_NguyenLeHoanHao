@@ -17,6 +17,11 @@ Bài thực hành mô phỏng 100% các bước triển khai thực tế mà b�
 + **Triển khai Frontend** lưu trữ tĩnh trên Amazon S3 và phân phối toàn cầu qua CDN Amazon CloudFront.
 + **Thiết lập CI/CD tự động hóa** bằng GitHub Actions thông qua kết nối bảo mật OIDC (không cần dùng AWS Access Key/Secret Key dài hạn).
 
+{{% notice info %}}
+**Demo trực tiếp:** Bạn có thể trải nghiệm dự án đã được triển khai hoàn chỉnh ngay bây giờ trước khi bắt đầu workshop!
+> **[https://d12bu86qwnw1gk.cloudfront.net/](https://d12bu86qwnw1gk.cloudfront.net/)**
+{{% /notice %}}
+
 #### Nội dung bài thực hành
 
 1. [Giới thiệu](5.1-Introduction/)

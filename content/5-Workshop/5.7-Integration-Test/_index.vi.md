@@ -10,6 +10,11 @@ pre : " <b> 5.7. </b> "
 
 Xác thực toàn bộ luồng hoạt động thực tế của game bằng cách tạo tài khoản qua Cognito, kết nối phòng đấu và tiến hành chơi game trực tiếp trên trình duyệt web.
 
+{{% notice info %}}
+**Trải nghiệm Demo trực tiếp:** Cloud Battleship Arena đã được triển khai hoàn chỉnh tại:
+> [https://d12bu86qwnw1gk.cloudfront.net/](https://d12bu86qwnw1gk.cloudfront.net/)
+{{% /notice %}}
+
 ---
 
 #### Danh sách kiểm tra trước khi test (Pre-check)

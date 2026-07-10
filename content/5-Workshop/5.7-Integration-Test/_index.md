@@ -10,6 +10,14 @@ pre : " <b> 5.7. </b> "
 
 Validate the entire application flow by registering user accounts, establishing game lobbies, and playing a live match directly inside the web browser.
 
+{{% notice info %}}
+**Try the Live Demo:** The fully deployed Cloud Battleship Arena is accessible at:
+>
+> ## [https://d12bu86qwnw1gk.cloudfront.net/](https://d12bu86qwnw1gk.cloudfront.net/)
+>
+> Use this URL to follow along with the integration test steps below, or to verify your own deployment produces an identical result.
+{{% /notice %}}
+
 ---
 
 #### Pre-check List Before Testing
