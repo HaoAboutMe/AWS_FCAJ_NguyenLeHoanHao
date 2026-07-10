@@ -1,6 +1,6 @@
 ---
 title: "Blogs Posted"
-date: 2024-01-01
+date: 2026-07-10
 weight: 3
 chapter: false
 pre: " <b> 3. </b> "
@@ -13,6 +13,4 @@ This blog post discusses whether, having previously used other cloud services, s
 
 ###  [Blog 2 - Overcoming Lambda Cold Starts with EventBridge & WarmUpController](3.2-Blog2/)
 This blog shares my experience in resolving AWS Lambda Cold Start latency by combining Amazon EventBridge and a WarmUpController to periodically ping Lambdas, alongside other AWS-native optimization alternatives.
-
-###  [Blog 3 - ...](3.3-Blog3/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+

@@ -14,6 +14,4 @@ Blog này chia sẻ về việc từng sử dụng các Cloud khác trước đ�
 
 ###  [Blog 2 - Giải pháp khắc phục Lambda Cold Start bằng EventBridge & WarmUpController](3.2-Blog2/)
 Blog này chia sẻ kinh nghiệm xử lý lỗi khởi động lạnh (Cold Start) của Lambda bằng cách sử dụng Amazon EventBridge kết hợp với WarmUpController để giữ ấm Lambda định kỳ, đồng thời gợi ý một số giải pháp tối ưu hóa khác của AWS.
-
-###  [Blog 3 - ...](3.3-Blog3/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+
