@@ -1,6 +1,6 @@
 ---
 title: "Week 7 Worklog"
-date: 2026-06-20
+date: 2026-06-21
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
@@ -24,7 +24,7 @@ pre: " <b> 1.7. </b> "
 | 4 | - Implement user avatar upload feature using AWS S3 <br> - Write a Lambda Function to generate S3 Presigned URLs so the Frontend can securely upload images directly to the S3 bucket <br> - Configure S3 Bucket IAM Policies and CORS to enable smooth asset uploading and rendering | 06/17/2026 | 06/17/2026 |
 | 5 | - Enhance the user Profile page by rendering dynamic avatars from S3 and updating profile metadata in DynamoDB <br> - Complete the visualization of player metrics (Service Record) and match logs in an intuitive format | 06/18/2026 | 06/18/2026 |
 | 6 | - Test, debug, and fix API Gateway CORS issues and Lambda function timeouts <br> - Design and implement a secure, optimized solution: transition the match history persistence (`saveMatchHistory`) from a client-triggered API call to an automated server-side write upon WebSocket disconnect/match completion | 06/19/2026 | 06/19/2026 |
-| 7 | - Optimize and complete Responsive design for all game screens (Lobby, ship setup, battle board, profile) <br> - Test WebSocket connection resilience during network disruptions and finalize the Week 7 report | 06/20/2026 | 06/21/2026 |
+| 7 | - Optimize and complete Responsive design for all game screens (Lobby, ship setup, battle board, profile) <br> - Test WebSocket connection resilience during network disruptions and finalize the Week 7 report | 06/20/2026 | 06/20/2026 |
 
 ### Week 7 Achievements:
 

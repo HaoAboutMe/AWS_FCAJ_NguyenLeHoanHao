@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 4"
-date: 2024-01-01
+date: 2026-05-31
 weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
@@ -20,10 +20,10 @@ pre: " <b> 1.4. </b> "
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- |
 | 2    | - Tìm hiểu kiến thức về Amazon VPC <br> - Tạo và cấu hình VPC <br> - Nghiên cứu Subnet, Route Table và Internet Gateway                     | 25/05/2026   | 25/05/2026      |
 | 3    | - Tìm hiểu Security Group <br> - Cấu hình các quy tắc Inbound và Outbound <br> - Tìm hiểu các nguyên tắc bảo mật mạng trên AWS              | 26/05/2026   | 26/05/2026      |
-| 4    | - Khởi tạo Amazon EC2 Instance <br> - Cấu hình và kết nối EC2 <br> - Tìm hiểu quy trình triển khai máy chủ trên AWS                         | 27/05/2026   | 28/05/2026      |
-| 5    | - Tìm hiểu AWS Tagging <br> - Tạo và quản lý Tag cho tài nguyên AWS <br> - Tìm hiểu cách quản lý và phân loại tài nguyên                    | 29/05/2026   | 29/05/2026      |
-| 6    | - Tích hợp Slack Webhook với AWS <br> - Cấu hình gửi thông báo từ AWS đến Slack <br> - Tìm hiểu cơ chế giám sát và cảnh báo                 | 30/05/2026   | 30/05/2026      |
-| 7    | - Thảo luận các ý tưởng cho dự án cuối kỳ <br> - Lựa chọn đề tài Battleship Game <br> - Nghiên cứu các dịch vụ AWS có thể áp dụng cho dự án | 31/05/2026   | 31/05/2026      |
+| 4    | - Khởi tạo Amazon EC2 Instance <br> - Cấu hình và kết nối EC2 <br> - Tìm hiểu quy trình triển khai máy chủ trên AWS                         | 27/05/2026 | 27/05/2026 |
+| 5    | - Tìm hiểu AWS Tagging <br> - Tạo và quản lý Tag cho tài nguyên AWS <br> - Tìm hiểu cách quản lý và phân loại tài nguyên                    | 28/05/2026 | 28/05/2026 |
+| 6    | - Tích hợp Slack Webhook với AWS <br> - Cấu hình gửi thông báo từ AWS đến Slack <br> - Tìm hiểu cơ chế giám sát và cảnh báo                 | 29/05/2026 | 29/05/2026 |
+| 7    | - Thảo luận các ý tưởng cho dự án cuối kỳ <br> - Lựa chọn đề tài Battleship Game <br> - Nghiên cứu các dịch vụ AWS có thể áp dụng cho dự án | 30/05/2026 | 30/05/2026 |
 
 ### Kết quả đạt được:
 

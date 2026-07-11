@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 7"
-date: 2026-06-20
+date: 2026-06-21
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
@@ -24,7 +24,7 @@ pre: " <b> 1.7. </b> "
 | 4 | - Xây dựng tính năng tải lên avatar người dùng lên AWS S3 <br> - Viết Lambda Function tạo S3 Presigned URL để Frontend tải ảnh trực tiếp lên S3 Bucket mà không để lộ khóa bí mật <br> - Cấu hình phân quyền IAM Policy và CORS cho S3 Bucket để tải và hiển thị ảnh mượt mà | 17/06/2026 | 17/06/2026 |
 | 5 | - Cải tiến trang Hồ sơ người dùng (Profile): kết nối hiển thị avatar động từ S3 và lưu thông tin cập nhật vào DynamoDB <br> - Hoàn thiện hiển thị chi tiết chỉ số người chơi (Service Record) và danh sách lịch sử trận đấu theo định dạng trực quan | 18/06/2026 | 18/06/2026 |
 | 6 | - Kiểm thử, tìm lỗi và khắc phục các vấn đề liên quan đến API Gateway CORS và Lambda timeouts <br> - Thiết kế và triển khai giải pháp tối ưu bảo mật: chuyển đổi cơ chế lưu lịch sử trận đấu (`saveMatchHistory`) từ phía Client gọi API sang Backend tự động lưu trực tiếp khi nhận diện sự kiện kết thúc trận đấu qua WebSocket | 19/06/2026 | 19/06/2026 |
-| 7 | - Tối ưu và hoàn thiện thiết kế Responsive cho toàn bộ các màn hình game (Lobby, bốc xếp tàu, bảng đấu súng, profile) <br> - Kiểm thử tính ổn định của WebSocket khi mất kết nối mạng và hoàn thành báo cáo tiến độ tuần 7 | 20/06/2026 | 21/06/2026 |
+| 7 | - Tối ưu và hoàn thiện thiết kế Responsive cho toàn bộ các màn hình game (Lobby, bốc xếp tàu, bảng đấu súng, profile) <br> - Kiểm thử tính ổn định của WebSocket khi mất kết nối mạng và hoàn thành báo cáo tiến độ tuần 7 | 20/06/2026 | 20/06/2026 |
 
 ### Kết quả đạt được:
 

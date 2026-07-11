@@ -23,7 +23,7 @@ pre: " <b> 1.6. </b> "
 | 4 | - Thiết kế kiến trúc Serverless cho ứng dụng Battleship <br> - Cấu hình Amazon API Gateway kết nối với AWS Lambda <br> - Tạo và triển khai Lambda Function `getUser` để xử lý việc lấy thông tin chi tiết hồ sơ người chơi | 10/06/2026 | 10/06/2026 |
 | 5 | - Nghiên cứu thiết kế cơ sở dữ liệu NoSQL với Amazon DynamoDB <br> - Định nghĩa cấu trúc bảng lịch sử trận đấu, xác định Partition Key (userId) và Sort Key (endedAt) để truy vấn hiệu quả <br> - Tạo Lambda Function `saveMatchHistory` để ghi nhận và lưu kết quả trận đấu sau khi trò chơi kết thúc | 11/06/2026 | 11/06/2026 |
 | 6 | - Tích hợp API gọi lưu kết quả trận đấu (`savePvpRankedMatchHistory`) và lấy thông tin thống kê người dùng lên giao diện Profile <br> - Hoàn thiện Lambda Function hiển thị lịch sử đấu có phân trang (pagination) và ẩn mã phòng chơi (room code masking) vì lý do bảo mật | 12/06/2026 | 12/06/2026 |
-| 7 | - Tìm hiểu cơ chế truyền thông điệp thời gian thực qua giao thức WebSocket <br> - Lên phương án kiến trúc cho chế độ chơi mạng PvP (tạo phòng chơi, tham gia phòng chơi, đồng bộ hóa tọa độ bắn tàu và trạng thái lượt đi của 2 người chơi) | 13/06/2026 | 14/06/2026 |
+| 7 | - Tìm hiểu cơ chế truyền thông điệp thời gian thực qua giao thức WebSocket <br> - Lên phương án kiến trúc cho chế độ chơi mạng PvP (tạo phòng chơi, tham gia phòng chơi, đồng bộ hóa tọa độ bắn tàu và trạng thái lượt đi của 2 người chơi) | 13/06/2026 | 13/06/2026 |
 
 ### Kết quả đạt được:
 

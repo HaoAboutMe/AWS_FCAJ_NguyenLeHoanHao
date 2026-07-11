@@ -23,7 +23,7 @@ pre: " <b> 1.6. </b> "
 | 4 | - Design the Serverless architecture for the Battleship application <br> - Configure Amazon API Gateway integrated with AWS Lambda <br> - Create and deploy the `getUser` Lambda Function to retrieve player profile details | 06/10/2026 | 06/10/2026 |
 | 5 | - Research and design the NoSQL database using Amazon DynamoDB <br> - Define the match history table schema, identifying the Partition Key (userId) and Sort Key (endedAt) for efficient querying <br> - Create the `saveMatchHistory` Lambda Function to record and save match results upon game completion | 06/11/2026 | 06/11/2026 |
 | 6 | - Integrate the API calls to save match history (`savePvpRankedMatchHistory`) and display user statistics on the Profile interface <br> - Finalize the Lambda Function for retrieving paginated match history with room code masking for security | 06/12/2026 | 06/12/2026 |
-| 7 | - Study real-time messaging using the WebSocket protocol <br> - Draft the architectural plan for the online PvP matchmaking and gameplay mode (room creation, joining, and syncing player coordinates and turns) | 06/13/2026 | 06/14/2026 |
+| 7 | - Study real-time messaging using the WebSocket protocol <br> - Draft the architectural plan for the online PvP matchmaking and gameplay mode (room creation, joining, and syncing player coordinates and turns) | 06/13/2026 | 06/13/2026 |
 
 ### Week 6 Achievements:
 

@@ -24,8 +24,8 @@ pre: " <b> 1.5. </b> "
 | 3    | - Tạo và cấu hình IAM User <br> - Thực hành gán quyền truy cập thông qua Policy <br> - Tìm hiểu nguyên tắc Least Privilege                         | 02/06/2026   | 02/06/2026      |
 | 4    | - Tìm hiểu IAM Policy <br> - Thực hành tạo Policy tùy chỉnh <br> - Kiểm tra và đánh giá quyền truy cập của người dùng                              | 03/06/2026   | 03/06/2026      |
 | 5    | - Tìm hiểu IAM Role <br> - Thực hành gán Role cho các dịch vụ AWS <br> - Nghiên cứu cơ chế Assume Role                                             | 04/06/2026   | 04/06/2026      |
-| 6    | - Thảo luận đề tài Battleship Game <br> - Xây dựng tài liệu mô tả dự án <br> - Thiết kế kiến trúc hệ thống và các chức năng chính                  | 05/06/2026   | 06/06/2026      |
-| 7    | - Khởi tạo dự án Frontend Battleship Game <br> - Xây dựng cấu trúc thư mục ban đầu <br> - Thiết kế giao diện và các thành phần cơ bản của trò chơi | 07/06/2026   | 07/06/2026      |
+| 6    | - Thảo luận đề tài Battleship Game <br> - Xây dựng tài liệu mô tả dự án <br> - Thiết kế kiến trúc hệ thống và các chức năng chính                  | 05/06/2026 | 05/06/2026 |
+| 7    | - Khởi tạo dự án Frontend Battleship Game <br> - Xây dựng cấu trúc thư mục ban đầu <br> - Thiết kế giao diện và các thành phần cơ bản của trò chơi | 06/06/2026 | 06/06/2026 |
 
 ### Kết quả đạt được:
 

@@ -26,7 +26,7 @@ pre: " <b> 1. </b> "
 **Tuần 9:** [Cải tiến giao diện người dùng, Deploy Frontend bằng S3 & CloudFront, khắc phục lỗi Lambda Cold Start và vẽ sơ đồ kiến trúc AWS](1.9-week9/)
 
 
-**Tuần 10:** [Làm công việc L...](1.10-week10/)
+**Tuần 10:** [Tối ưu hóa giao diện Responsive, hoàn thiện sơ đồ kiến trúc AWS và tài liệu hướng dẫn (Workshop)](1.10-week10/)
 
 **Tuần 11:** [Làm công việc M...](1.11-week11/)
 

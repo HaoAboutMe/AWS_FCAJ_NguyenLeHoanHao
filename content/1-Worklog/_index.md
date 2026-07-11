@@ -26,7 +26,7 @@ pre: " <b> 1. </b> "
 **Week 9:** [Improving Web UI, Deploying Frontend via S3 & CloudFront, mitigating Lambda Cold Starts, and drawing AWS Architecture Diagram](1.9-week9/)
 
 
-**Week 10:** [Doing task L...](1.10-week10/)
+**Week 10:** [Optimizing Responsive UI, Finalizing AWS Architecture Diagram and Workshop Documentation](1.10-week10/)
 
 **Week 11:** [Doing task M...](1.11-week11/)
 

@@ -1,4 +1,5 @@
 baseURL = "https://HaoAboutMe.github.io/AWS_FCAJ_NguyenLeHoanHao/"
+buildFuture = true
 relativeURLs = false
 canonifyURLs = true
 defaultContentLanguage = "en"
