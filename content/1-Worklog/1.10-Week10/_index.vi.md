@@ -1,59 +1,31 @@
 ---
 title: "Worklog Tuần 10"
-date: 2024-01-01
+date: 2026-07-12
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
 ### Mục tiêu tuần 10:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Chỉnh sửa và tối ưu hóa giao diện (UI/UX) responsive của ứng dụng trên thiết bị di động thực tế.
+* Hoàn thiện sơ đồ kiến trúc hệ thống (AWS Architecture Diagram) sau khi nhận phản hồi từ các admin.
+* Xây dựng và hoàn thiện tài liệu hướng dẫn thực hành (Workshop) cho toàn bộ dự án.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
+| --- | --- | --- | --- |
+| 2 | - Chỉnh sửa các lỗi UI/UX còn tồn tại trong phần responsive của thiết bị thật lúc web đã được hosting lên | 06/07/2026 | 06/07/2026 |
+| 3 | - Vẽ sơ đồ AWS Architecture Diagram bằng Draw.io và nhờ các admin review, sau đó nhận phản hồi và đánh giá sơ đồ chưa chính xác | 07/07/2026 | 07/07/2026 |
+| 4 | - Nghiên cứu và vẽ lại sơ đồ kiến trúc AWS Architecture Diagram <br> - Tiếp tục chỉnh sửa lỗi UI/UX còn tồn đọng | 08/07/2026 | 08/07/2026 |
+| 5 | - Tiến hành viết và hoàn thiện nội dung hướng dẫn các bước triển khai trong tài liệu workshop | 09/07/2026 | 09/07/2026 |
+| 6 | - Điều chỉnh nội dung hướng dẫn và chèn các sơ đồ, hình ảnh minh họa cho tài liệu workshop | 10/07/2026 | 10/07/2026 |
+| 7 | - Kiểm thử các bước hướng dẫn trong tài liệu workshop, sửa lỗi chính tả, thêm link demo và github repo | 11/07/2026 | 11/07/2026 |
 
 
 ### Kết quả đạt được tuần 10:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* **Tối ưu hóa UI/UX Responsive:** Khắc phục triệt để các lỗi hiển thị, tràn khung, lệch nút bấm khi trải nghiệm trên thiết bị di động thực tế sau khi deploy.
+* **Hoàn thành Sơ đồ Kiến trúc AWS:** Chỉnh sửa lỗi sai ở phiên bản trước, vẽ lại sơ đồ kiến trúc hoàn chỉnh thể hiện đúng luồng dữ liệu của các dịch vụ (Cognito, API Gateway, Lambda, DynamoDB, S3, CloudFront).
+* **Hoàn thiện tài liệu Workshop:** Viết xong và định dạng đẹp mắt toàn bộ tài liệu hướng dẫn thực hành từng bước, giúp người học dễ dàng tự triển khai dự án.
