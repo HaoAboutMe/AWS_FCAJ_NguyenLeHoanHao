@@ -27,7 +27,3 @@ pre: " <b> 1. </b> "
 
 
 **Week 10:** [Optimizing Responsive UI, Finalizing AWS Architecture Diagram and Workshop Documentation](1.10-week10/)
-
-**Week 11:** [Doing task M...](1.11-week11/)
-
-**Week 12:** [Doing task N...](1.12-week12/)

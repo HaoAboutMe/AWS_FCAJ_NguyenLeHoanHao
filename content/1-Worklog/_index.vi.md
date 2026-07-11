@@ -27,7 +27,3 @@ pre: " <b> 1. </b> "
 
 
 **Tuần 10:** [Tối ưu hóa giao diện Responsive, hoàn thiện sơ đồ kiến trúc AWS và tài liệu hướng dẫn (Workshop)](1.10-week10/)
-
-**Tuần 11:** [Làm công việc M...](1.11-week11/)
-
-**Tuần 12:** [Làm công việc N...](1.12-week12/)
