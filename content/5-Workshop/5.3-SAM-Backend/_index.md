@@ -12,6 +12,13 @@ Successfully deploy the entire Cloud Battleship Arena Backend on AWS — includi
 
 ---
 
+### Project Source Code
+
+The complete source code of the project is available on GitHub:
+* **GitHub Link:** [AWS Cloud Battleship Arena](https://github.com/HaoAboutMe/AWS_Cloud_Battleship_Arena)
+
+---
+
 #### Resource Structure in template.yaml
 
 The `BackEnd/template.yaml` file defines the complete Backend including:
@@ -22,10 +29,18 @@ The `BackEnd/template.yaml` file defines the complete Backend including:
 
 ---
 
-#### Step 1: Install Dependencies
+#### Step 1: Clone Project Source Code from GitHub and Install Dependencies
+
+To begin, you must first clone the project's source code from the GitHub repository to your local machine. Open your terminal and run the following commands:
 
 ```bash
+# Clone the project repository
+git clone https://github.com/HaoAboutMe/AWS_Cloud_Battleship_Arena.git
+
+# Navigate to the Backend directory of the project
 cd AWS_Cloud_Battleship_Arena/BackEnd
+
+# Install package dependencies
 npm install
 ```
 
