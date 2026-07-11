@@ -17,12 +17,12 @@ pre: " <b> 1.8. </b> "
 
 | Day | Task | Start Date | Completion Date |
 | --- | ---- | ---------- | --------------- |
-| 2   | - Researched Custom Shipyard solutions and grid coordinate systems to allow users to draw custom ship shapes <br> - Defined validation rules for custom-drawn ships | 06/22/2026 | 06/22/2026 |
-| 3   | - Implemented the Custom Shipyard UI on the Frontend with an interactive drawing grid <br> - Built validation algorithms (ensuring contiguous blocks and correct cell counts) and saved custom ship configurations | 06/23/2026 | 06/23/2026 |
-| 4   | - Designed DynamoDB schemas and developed Lambda Functions to query leaderboard statistics <br> - Retrieved TOP 5 player data with the highest scores for all rank tiers | 06/24/2026 | 06/24/2026 |
-| 5   | - Integrated the Leaderboard UI on the Frontend to show detailed rankings <br> - Optimized the user interface (UI) for Desktop and completed responsive adjustments for mobile and tablet screens | 06/25/2026 | 06/25/2026 |
-| 6   | - Configured Throttling (Rate Limiting) on AWS API Gateway endpoints <br> - Set limits on request rates and burst sizes to prevent API abuse and spamming | 06/26/2026 | 06/26/2026 |
-| 7   | - Conducted comprehensive testing of all new features (Custom Shipyard, Leaderboard, API Throttling) <br> - Fixed UI bugs on responsive views and compiled the Week 8 progress report | 06/27/2026 | 06/27/2026 |
+| 2   | - Researched Custom Shipyard solutions and grid coordinate systems to allow users to draw custom ship shapes <br> - Defined validation rules for custom-drawn ships | 22/06/2026 | 22/06/2026 |
+| 3   | - Implemented the Custom Shipyard UI on the Frontend with an interactive drawing grid <br> - Built validation algorithms (ensuring contiguous blocks and correct cell counts) and saved custom ship configurations | 23/06/2026 | 23/06/2026 |
+| 4   | - Designed DynamoDB schemas and developed Lambda Functions to query leaderboard statistics <br> - Retrieved TOP 5 player data with the highest scores for all rank tiers | 24/06/2026 | 24/06/2026 |
+| 5   | - Integrated the Leaderboard UI on the Frontend to show detailed rankings <br> - Optimized the user interface (UI) for Desktop and completed responsive adjustments for mobile and tablet screens | 25/06/2026 | 25/06/2026 |
+| 6   | - Configured Throttling (Rate Limiting) on AWS API Gateway endpoints <br> - Set limits on request rates and burst sizes to prevent API abuse and spamming | 26/06/2026 | 26/06/2026 |
+| 7   | - Conducted comprehensive testing of all new features (Custom Shipyard, Leaderboard, API Throttling) <br> - Fixed UI bugs on responsive views and compiled the Week 8 progress report | 27/06/2026 | 27/06/2026 |
 
 ### Achievements:
 

@@ -19,12 +19,12 @@ pre: " <b> 1.7. </b> "
 
 | Day | Task | Start Date | Completion Date |
 | --- | ---- | ---------- | --------------- |
-| 2 | - Study and configure API Gateway WebSocket APIs with default routes (`$connect`, `$disconnect`) and custom routes (`joinRoom`, `makeMove`) <br> - Develop Lambda functions to manage session and connection ID mapping for tracking online players | 06/15/2026 | 06/15/2026 |
-| 3 | - Connect WebSocket on the Frontend and implement real-time game state synchronization <br> - Integrate sound effects (explosion hits, water splashes, background music) <br> - Resolve browser autoplay policy issues by initializing audio securely via user interaction | 06/16/2026 | 06/16/2026 |
-| 4 | - Implement user avatar upload feature using AWS S3 <br> - Write a Lambda Function to generate S3 Presigned URLs so the Frontend can securely upload images directly to the S3 bucket <br> - Configure S3 Bucket IAM Policies and CORS to enable smooth asset uploading and rendering | 06/17/2026 | 06/17/2026 |
-| 5 | - Enhance the user Profile page by rendering dynamic avatars from S3 and updating profile metadata in DynamoDB <br> - Complete the visualization of player metrics (Service Record) and match logs in an intuitive format | 06/18/2026 | 06/18/2026 |
-| 6 | - Test, debug, and fix API Gateway CORS issues and Lambda function timeouts <br> - Design and implement a secure, optimized solution: transition the match history persistence (`saveMatchHistory`) from a client-triggered API call to an automated server-side write upon WebSocket disconnect/match completion | 06/19/2026 | 06/19/2026 |
-| 7 | - Optimize and complete Responsive design for all game screens (Lobby, ship setup, battle board, profile) <br> - Test WebSocket connection resilience during network disruptions and finalize the Week 7 report | 06/20/2026 | 06/20/2026 |
+| 2 | - Study and configure API Gateway WebSocket APIs with default routes (`$connect`, `$disconnect`) and custom routes (`joinRoom`, `makeMove`) <br> - Develop Lambda functions to manage session and connection ID mapping for tracking online players | 15/06/2026 | 15/06/2026 |
+| 3 | - Connect WebSocket on the Frontend and implement real-time game state synchronization <br> - Integrate sound effects (explosion hits, water splashes, background music) <br> - Resolve browser autoplay policy issues by initializing audio securely via user interaction | 16/06/2026 | 16/06/2026 |
+| 4 | - Implement user avatar upload feature using AWS S3 <br> - Write a Lambda Function to generate S3 Presigned URLs so the Frontend can securely upload images directly to the S3 bucket <br> - Configure S3 Bucket IAM Policies and CORS to enable smooth asset uploading and rendering | 17/06/2026 | 17/06/2026 |
+| 5 | - Enhance the user Profile page by rendering dynamic avatars from S3 and updating profile metadata in DynamoDB <br> - Complete the visualization of player metrics (Service Record) and match logs in an intuitive format | 18/06/2026 | 18/06/2026 |
+| 6 | - Test, debug, and fix API Gateway CORS issues and Lambda function timeouts <br> - Design and implement a secure, optimized solution: transition the match history persistence (`saveMatchHistory`) from a client-triggered API call to an automated server-side write upon WebSocket disconnect/match completion | 19/06/2026 | 19/06/2026 |
+| 7 | - Optimize and complete Responsive design for all game screens (Lobby, ship setup, battle board, profile) <br> - Test WebSocket connection resilience during network disruptions and finalize the Week 7 report | 20/06/2026 | 20/06/2026 |
 
 ### Week 7 Achievements:
 

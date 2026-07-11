@@ -17,12 +17,12 @@ pre: " <b> 1.9. </b> "
 
 | Day | Task | Start Date | Completion Date |
 | --- | ---- | ---------- | --------------- |
-| 2   | - Refactored CSS code and UI components, starting the implementation of the new modern web interface design <br> - Optimized the layout of match status displays and the lobby placement setup area | 06/29/2026 | 06/29/2026 |
-| 3   | - Continued refining the new UI: polished hover effects, shadows, and glassmorphism in both Light and Dark modes <br> - Resolved layout clipping and responsive alignment issues for the control menu and mobile buttons | 06/30/2026 | 06/30/2026 |
-| 4   | - Researched strategies to mitigate serverless Lambda Cold Start latency <br> - Developed a warm-up Lambda function to send periodic heartbeat signals to the core business logic Lambdas <br> - Configured EventBridge Rules in the SAM template to automatically trigger the warm-up process every 5 minutes | 07/01/2026 | 07/01/2026 |
-| 5   | - Deployed the static Frontend on Amazon S3 and configured appropriate S3 Bucket Policies <br> - Created and configured an Amazon CloudFront Distribution as the CDN in front of S3, optimizing caching policies and integrating SSL/TLS for secure HTTPS connections <br> - Troubleshot Redirect URI issues during Cognito User Pool integration with Facebook Login | 07/02/2026 | 07/02/2026 |
-| 6   | - Researched and designed the AWS Architecture Diagram, detailing the REST API, WebSocket (APIGW), Lambda, DynamoDB, and S3/CloudFront data flows <br> - Visualized the architecture using Mermaid diagrams for inclusion in the project documentation | 07/03/2026 | 07/03/2026 |
-| 7   | - Conducted end-to-end performance testing of the system post-deployment with the warm-up Lambda and CloudFront CDN distribution <br> - Finalized architectural documentation, addressed outstanding CSS issues, and compiled the Week 9 progress report | 07/04/2026 | 07/04/2026 |
+| 2   | - Refactored CSS code and UI components, starting the implementation of the new modern web interface design <br> - Optimized the layout of match status displays and the lobby placement setup area | 29/06/2026 | 29/06/2026 |
+| 3   | - Continued refining the new UI: polished hover effects, shadows, and glassmorphism in both Light and Dark modes <br> - Resolved layout clipping and responsive alignment issues for the control menu and mobile buttons | 30/06/2026 | 30/06/2026 |
+| 4   | - Researched strategies to mitigate serverless Lambda Cold Start latency <br> - Developed a warm-up Lambda function to send periodic heartbeat signals to the core business logic Lambdas <br> - Configured EventBridge Rules in the SAM template to automatically trigger the warm-up process every 5 minutes | 01/07/2026 | 01/07/2026 |
+| 5   | - Deployed the static Frontend on Amazon S3 and configured appropriate S3 Bucket Policies <br> - Created and configured an Amazon CloudFront Distribution as the CDN in front of S3, optimizing caching policies and integrating SSL/TLS for secure HTTPS connections <br> - Troubleshot Redirect URI issues during Cognito User Pool integration with Facebook Login | 02/07/2026 | 02/07/2026 |
+| 6   | - Researched and designed the AWS Architecture Diagram, detailing the REST API, WebSocket (APIGW), Lambda, DynamoDB, and S3/CloudFront data flows <br> - Visualized the architecture using Mermaid diagrams for inclusion in the project documentation | 03/07/2026 | 03/07/2026 |
+| 7   | - Conducted end-to-end performance testing of the system post-deployment with the warm-up Lambda and CloudFront CDN distribution <br> - Finalized architectural documentation, addressed outstanding CSS issues, and compiled the Week 9 progress report | 04/07/2026 | 04/07/2026 |
 
 ### Achievements:
 

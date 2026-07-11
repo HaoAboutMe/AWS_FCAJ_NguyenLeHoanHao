@@ -18,12 +18,12 @@ pre: " <b> 1.6. </b> "
 
 | Day | Task | Start Date | Completion Date |
 | --- | ---- | ---------- | --------------- |
-| 2 | - Research and configure Amazon Cognito User Pool and Client App <br> - Integrate the AWS Cognito SDK into the React application (Frontend) to manage registration, login, logout, and user session states | 06/08/2026 | 06/08/2026 |
-| 3 | - Design and complete Responsive compatibility for the game interface <br> - Optimize layouts, navigation menus, and board sizes for mobile and tablet devices <br> - Refactor the audio initialization flow and optimize screen resize event listeners to prevent blocking the main thread during Cognito redirects | 06/09/2026 | 06/09/2026 |
-| 4 | - Design the Serverless architecture for the Battleship application <br> - Configure Amazon API Gateway integrated with AWS Lambda <br> - Create and deploy the `getUser` Lambda Function to retrieve player profile details | 06/10/2026 | 06/10/2026 |
-| 5 | - Research and design the NoSQL database using Amazon DynamoDB <br> - Define the match history table schema, identifying the Partition Key (userId) and Sort Key (endedAt) for efficient querying <br> - Create the `saveMatchHistory` Lambda Function to record and save match results upon game completion | 06/11/2026 | 06/11/2026 |
-| 6 | - Integrate the API calls to save match history (`savePvpRankedMatchHistory`) and display user statistics on the Profile interface <br> - Finalize the Lambda Function for retrieving paginated match history with room code masking for security | 06/12/2026 | 06/12/2026 |
-| 7 | - Study real-time messaging using the WebSocket protocol <br> - Draft the architectural plan for the online PvP matchmaking and gameplay mode (room creation, joining, and syncing player coordinates and turns) | 06/13/2026 | 06/13/2026 |
+| 2 | - Research and configure Amazon Cognito User Pool and Client App <br> - Integrate the AWS Cognito SDK into the React application (Frontend) to manage registration, login, logout, and user session states | 08/06/2026 | 08/06/2026 |
+| 3 | - Design and complete Responsive compatibility for the game interface <br> - Optimize layouts, navigation menus, and board sizes for mobile and tablet devices <br> - Refactor the audio initialization flow and optimize screen resize event listeners to prevent blocking the main thread during Cognito redirects | 09/06/2026 | 09/06/2026 |
+| 4 | - Design the Serverless architecture for the Battleship application <br> - Configure Amazon API Gateway integrated with AWS Lambda <br> - Create and deploy the `getUser` Lambda Function to retrieve player profile details | 10/06/2026 | 10/06/2026 |
+| 5 | - Research and design the NoSQL database using Amazon DynamoDB <br> - Define the match history table schema, identifying the Partition Key (userId) and Sort Key (endedAt) for efficient querying <br> - Create the `saveMatchHistory` Lambda Function to record and save match results upon game completion | 11/06/2026 | 11/06/2026 |
+| 6 | - Integrate the API calls to save match history (`savePvpRankedMatchHistory`) and display user statistics on the Profile interface <br> - Finalize the Lambda Function for retrieving paginated match history with room code masking for security | 12/06/2026 | 12/06/2026 |
+| 7 | - Study real-time messaging using the WebSocket protocol <br> - Draft the architectural plan for the online PvP matchmaking and gameplay mode (room creation, joining, and syncing player coordinates and turns) | 13/06/2026 | 13/06/2026 |
 
 ### Week 6 Achievements:
 

@@ -20,11 +20,11 @@ pre: " <b> 1.5. </b> "
 
 | Day | Task                                                                                                                                        | Start Date | Completion Date |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- |
-| 2   | - Learn AWS Identity and Access Management (IAM) <br> - Study user and permission management concepts on AWS                                | 06/01/2026 | 06/01/2026 |
-| 3   | - Create and configure IAM Users <br> - Assign permissions using Policies <br> - Learn the Principle of Least Privilege                     | 06/02/2026 | 06/02/2026 |
-| 4   | - Study IAM Policies <br> - Create and test custom Policies <br> - Evaluate access permissions for IAM Users                                | 06/03/2026 | 06/03/2026 |
-| 5   | - Learn IAM Roles <br> - Practice assigning Roles to AWS services <br> - Explore the Assume Role mechanism                                  | 06/04/2026 | 06/04/2026 |
-| 6   | - Discuss the Battleship Game project <br> - Prepare project documentation <br> - Design system architecture and core features              | 06/05/2026 | 06/05/2026 |
+| 2   | - Learn AWS Identity and Access Management (IAM) <br> - Study user and permission management concepts on AWS                                | 01/06/2026 | 01/06/2026 |
+| 3   | - Create and configure IAM Users <br> - Assign permissions using Policies <br> - Learn the Principle of Least Privilege                     | 02/06/2026 | 02/06/2026 |
+| 4   | - Study IAM Policies <br> - Create and test custom Policies <br> - Evaluate access permissions for IAM Users                                | 03/06/2026 | 03/06/2026 |
+| 5   | - Learn IAM Roles <br> - Practice assigning Roles to AWS services <br> - Explore the Assume Role mechanism                                  | 04/06/2026 | 04/06/2026 |
+| 6   | - Discuss the Battleship Game project <br> - Prepare project documentation <br> - Design system architecture and core features              | 05/06/2026 | 05/06/2026 |
 | 7   | - Initialize the Battleship Game Frontend project <br> - Create the initial project structure <br> - Design basic user interface components | 06/06/2026 | 06/06/2026 |
 
 ### Achievements:

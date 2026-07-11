@@ -16,12 +16,12 @@ pre: " <b> 1.10. </b> "
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date |
 | --- | --- | --- | --- |
-| 2 | - Fix remaining UI/UX bugs in the responsive layout on physical devices after the web application is hosted | 07/06/2026 | 07/06/2026 |
+| 2 | - Fix remaining UI/UX bugs in the responsive layout on physical devices after the web application is hosted | 06/07/2026 | 06/07/2026 |
 | 3 | - Draw the AWS Architecture Diagram using Draw.io and submit it to admins for review, which was subsequently evaluated as incorrect | 07/07/2026 | 07/07/2026 |
-| 4 | - Research and redraw the AWS Architecture Diagram <br> - Continue addressing and resolving pending UI/UX responsive issues | 07/08/2026 | 07/08/2026 |
-| 5 | - Write and complete the implementation step-by-step instructions in the workshop documentation | 07/09/2026 | 07/09/2026 |
-| 6 | - Adjust implementation instructions and insert architectural diagrams and visual assets into the workshop | 07/10/2026 | 07/10/2026 |
-| 7 | - Test all guides in the workshop documentation, correct typographical errors, and add demo links and the GitHub repository link | 07/11/2026 | 07/11/2026 |
+| 4 | - Research and redraw the AWS Architecture Diagram <br> - Continue addressing and resolving pending UI/UX responsive issues | 08/07/2026 | 08/07/2026 |
+| 5 | - Write and complete the implementation step-by-step instructions in the workshop documentation | 09/07/2026 | 09/07/2026 |
+| 6 | - Adjust implementation instructions and insert architectural diagrams and visual assets into the workshop | 10/07/2026 | 10/07/2026 |
+| 7 | - Test all guides in the workshop documentation, correct typographical errors, and add demo links and the GitHub repository link | 11/07/2026 | 11/07/2026 |
 
 
 ### Week 10 Achievements:
