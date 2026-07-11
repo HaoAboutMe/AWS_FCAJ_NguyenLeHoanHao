@@ -1,44 +1,25 @@
 ---
 title: "Chia sẻ, đóng góp ý kiến"
-date: 2024-01-01
+date: 2026-07-12
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
->Tại đây bạn có thể tự do đóng góp ý kiến cá nhân về những trải nghiệm khi tham gia chương trình First Cloud AI Journey, giúp team FCAJ cải thiện những vấn đề còn thiếu sót dựa trên các hạng mục sau:
+### Cảm nhận về chương trình
 
-### Đánh giá chung
+Ngay từ đầu thì đây không phải là một công việc như các admin đã nói mà là một chương trình cộng đồng. Chương trình này thật sự rất tốt cho sinh viên ở thời điểm hiện tại, có thể biến các project local thành các project thật thông qua AWS Cloud. Và theo cảm nhận thì Cloud của AWS khá là tuyệt vời. 
 
-**1. Môi trường làm việc**  
-Môi trường làm việc rất thân thiện và cởi mở. Các thành viên trong FCAJ luôn sẵn sàng hỗ trợ khi mình gặp khó khăn, kể cả ngoài giờ làm việc. Không gian làm việc gọn gàng, thoải mái, giúp mình tập trung tốt hơn. Tuy nhiên, mình nghĩ có thể bổ sung thêm một số buổi giao lưu hoặc team bonding để mọi người hiểu nhau hơn.
+Chương trình mang đến cơ hội cho nhiều sinh viên có thể được tiếp xúc trực tiếp với môi trường Cloud sớm, trải nghiệm các hoạt động event hay các cuộc thi về kiến thức Cloud. FCAJ có một đội ngũ các admin rất tốt về mặt kiến thức và em nghĩ là chương trình nên được nhiều người biết đến hơn nữa.
 
-**2. Sự hỗ trợ của mentor / team admin**  
-Mentor hướng dẫn rất chi tiết, giải thích rõ ràng khi mình chưa hiểu và luôn khuyến khích mình đặt câu hỏi. Team admin hỗ trợ các thủ tục, tài liệu và tạo điều kiện để mình làm việc thuận lợi. Mình đánh giá cao việc mentor cho phép mình thử và tự xử lý vấn đề thay vì chỉ đưa đáp án.
+### Mức độ hài lòng
 
-**3. Sự phù hợp giữa công việc và chuyên ngành học**  
-Công việc mình được giao phù hợp với kiến thức mình đã học ở trường, đồng thời mở rộng thêm những mảng mới mà mình chưa từng được tiếp cận. Nhờ vậy, mình vừa củng cố kiến thức nền tảng, vừa học thêm kỹ năng thực tế.
+Chắc chắn là vô cùng hài lòng về mọi thứ từ chương trình đến các bài lab học tập, kiến thức học được khi làm project. Những trải nghiệm thực tế này đã giúp em củng cố và nâng cao kỹ năng chuyên môn một cách rõ rệt.
 
-**4. Cơ hội học hỏi & phát triển kỹ năng**  
-Trong quá trình thực tập, mình học được nhiều kỹ năng mới như sử dụng công cụ quản lý dự án, kỹ năng làm việc nhóm, và cả cách giao tiếp chuyên nghiệp trong môi trường công ty. Mentor cũng chia sẻ nhiều kinh nghiệm thực tế giúp mình định hướng tốt hơn cho sự nghiệp.
+### Điểm cần cải thiện
 
-**5. Văn hóa & tinh thần đồng đội**  
-Văn hóa công ty rất tích cực: mọi người tôn trọng lẫn nhau, làm việc nghiêm túc nhưng vẫn vui vẻ. Khi có dự án gấp, mọi người cùng nhau cố gắng, hỗ trợ không phân biệt vị trí. Điều này giúp mình cảm thấy mình là một phần của tập thể, dù chỉ là thực tập sinh.
+Có thể về việc xét duyệt lên văn phòng làm việc trực tiếp: Hiện tại có một số bạn có nhiều cơ hội lên văn phòng hơn các bạn khác do cơ chế xét duyệt random. Em hy vọng trong tương lai chương trình có thể tối ưu hóa quy trình này để tạo cơ hội đồng đều hơn cho tất cả các thành viên mong muốn được lên văn phòng làm việc và tương tác trực tiếp.
 
-**6. Chính sách / phúc lợi cho thực tập sinh**  
-Công ty có hỗ trợ phụ cấp thực tập và tạo điều kiện về thời gian linh hoạt khi cần thiết. Ngoài ra, việc được tham gia các buổi đào tạo nội bộ là một điểm cộng lớn.
+### Giới thiệu chương trình cho bạn bè và khóa dưới
 
-
-### Một số câu hỏi khác
-- Điều bạn **hài lòng nhất** trong thời gian thực tập?  
-- Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau?  
-- Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?  
-
-
-### Đề xuất & mong muốn
-- Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?  
-- Bạn có muốn tiếp tục chương trình này trong tương lai?
-- Góp ý khác (tự do chia sẻ):
+Em chắc chắn sẽ giới thiệu chương trình này cho các em khóa dưới để các em có cơ hội tiếp cận sớm với AWS và Điện toán đám mây. Đối với các bạn cùng trang lứa, em sẽ giới thiệu để các bạn có thể tự học thêm phần kiến thức này tại nhà khi rảnh, vì nhiều bạn cũng có những định hướng và công việc làm thêm ở nhiều nơi khác nhau. Đây thực sự là một chương trình vô cùng bổ ích.

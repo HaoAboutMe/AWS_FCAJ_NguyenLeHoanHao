@@ -1,47 +1,25 @@
 ---
 title: "Sharing and Feedback"
-date: 2024-01-01
+date: 2026-07-12
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
+### Thoughts on the Program
 
-> Here, you can freely share your personal opinions about your experience participating in the First Cloud AI Journey program. This will help the FCAJ team improve any shortcomings based on the following aspects:
+From the very beginning, this felt less like a traditional job (as the admins initially mentioned) and more like an open community program. This program is incredibly beneficial for students nowadays, enabling them to transform local projects into real-world applications using the AWS Cloud. Furthermore, AWS Cloud services have proven to be absolutely amazing.
 
-### Overall Evaluation
+The program provides an outstanding opportunity for students to gain early, hands-on experience with the Cloud environment, participate in events, and test their knowledge in Cloud-related contests. FCAJ boasts an exceptionally knowledgeable team of admins, and I strongly believe this program deserves to be much more widely known.
 
-**1. Working Environment**  
-The working environment is very friendly and open. FCAJ members are always willing to help whenever I encounter difficulties, even outside working hours. The workspace is tidy and comfortable, helping me focus better. However, I think it would be nice to have more social gatherings or team bonding activities to strengthen relationships.
+### Level of Satisfaction
 
-**2. Support from Mentor / Team Admin**  
-The mentor provides very detailed guidance, explains clearly when I don’t understand, and always encourages me to ask questions. The admin team supports administrative tasks, provides necessary documents, and creates favorable conditions for me to work effectively. I especially appreciate that the mentor allows me to try and solve problems myself instead of just giving the answer.
+Without a doubt, I am extremely satisfied with everything—ranging from the overall program structure to the practical lab exercises and the invaluable knowledge acquired while building the project.
 
-**3. Relevance of Work to Academic Major**  
-The tasks I was assigned align well with the knowledge I learned at university, while also introducing me to new areas I had never encountered before. This allowed me to both strengthen my foundational knowledge and gain practical skills.
+### Areas for Improvement
 
-**4. Learning & Skill Development Opportunities**  
-During the internship, I learned many new skills such as using project management tools, teamwork skills, and professional communication in a corporate environment. The mentor also shared valuable real-world experiences that helped me better plan my career path.
+One area that could be improved is the process for attending the physical office. Currently, some participants get more opportunities to work at the office than others due to a randomized selection process. I hope the program can optimize this process in the future to offer more balanced and equal opportunities for everyone who wishes to work and interact directly at the office.
 
-**5. Company Culture & Team Spirit**  
-The company culture is very positive: everyone respects each other, works seriously but still keeps things enjoyable. When there are urgent projects, everyone works together and supports one another regardless of their position. This made me feel like a real part of the team, even as an intern.
+### Recommending the Program to Friends and Undergraduates
 
-**6. Internship Policies / Benefits**  
-The company provides an internship allowance and offers flexible working hours when needed. In addition, having the opportunity to join internal training sessions is a big plus.
-
----
-
-### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
-
----
-
-### Suggestions & Expectations
-- Do you have any suggestions to improve the internship experience?  
-- Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+I will definitely recommend this program to younger students (undergraduates) so they can get an early start with AWS and Cloud Computing. For my peers who might already be busy working elsewhere, I will share the resources so they can self-study these topics at home in their free time. This is truly an incredibly rewarding program.
